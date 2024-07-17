@@ -1,0 +1,76 @@
+body{
+    font-family: Ga Maamli,sans-serif;
+}
+
+.navbar{
+    background-color: #800000;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #800000;
+
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover, 
+.nav-produto .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae5;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 550px;
+    
+}
+
+#tipos img{
+    width: 100%;
+    height: 300px;
+}
+
+#produto img {
+    width: 100%;
+    height: 250px;
+}
+
+.section-title{
+    font-family: "Baskervville SC", serif;
+}
+
+#sobre-loja, #produto{
+    background-color: #ebcfcc;
+}
+
+.text-colored{
+    color: #FF0000;
+}
+
+.nav-produto .nav-link.active, #fale-conosco button{
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.nav-produto .nav-link:hover{
+    color: #FF0000;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767){
+    .carousel-item img{
+        height: 280px;
+    }
+}
